@@ -1,0 +1,39 @@
+{
+  "name": "Bookstore",
+  "version": "0.1.0",
+  "summary": "A short description of Bookstore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dziennikp/Bookstore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dziennikp": "dziennikp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dziennikp/Bookstore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.4"
+  },
+  "source_files": "Bookstore/**/*",
+  "dependencies": {
+    "RxCocoa": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RealmSwift": [
+
+    ],
+    "EasyPeasy": [
+
+    ],
+    "ObjectMapper": [
+
+    ]
+  }
+}

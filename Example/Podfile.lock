@@ -1,0 +1,51 @@
+PODS:
+  - Bookstore (0.1.0):
+    - EasyPeasy
+    - ObjectMapper
+    - RealmSwift
+    - RxCocoa
+    - RxSwift
+  - EasyPeasy (1.8.0)
+  - ObjectMapper (3.4.2)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - RealmSwift (3.15.0):
+    - Realm (= 3.15.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+
+DEPENDENCIES:
+  - Bookstore (from `../`)
+  - EasyPeasy (= 1.8.0)
+  - ObjectMapper (= 3.4.2)
+  - RealmSwift (= 3.15.0)
+  - RxCocoa (< 5.0.0)
+  - RxSwift (< 5.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasyPeasy
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Bookstore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bookstore: 45f84bbea8741adce5d4f4b44c0d2ffc09f8eefb
+  EasyPeasy: bfffe5d47bbaaef3e32888c250a196768484b43a
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  RealmSwift: 8a41886f8ab6efef9eb8df97de2f2bb911561a79
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+
+PODFILE CHECKSUM: 0a98957a08b52adfd1d9d126f090902a0e3e1ff2
+
+COCOAPODS: 1.5.3

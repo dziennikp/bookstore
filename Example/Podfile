@@ -2,7 +2,12 @@ use_frameworks!
 
 target 'Bookstore_Example' do
   pod 'Bookstore', :path => '../'
-
+  pod 'EasyPeasy', '1.8.0'
+  pod 'RealmSwift', '3.15.0'
+  pod 'RxSwift', '<5.0.0'
+  pod 'RxCocoa', '<5.0.0'
+  pod 'ObjectMapper', '3.4.2'
+  
   target 'Bookstore_Tests' do
     inherit! :search_paths
 

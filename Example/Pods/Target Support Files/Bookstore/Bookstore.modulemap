@@ -1,0 +1,6 @@
+framework module Bookstore {
+  umbrella header "Bookstore-umbrella.h"
+
+  export *
+  module * { export * }
+}
