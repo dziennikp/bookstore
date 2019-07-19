@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Bookstore_Example' do
+  pod 'Bookstore', :path => '../'
+
+  target 'Bookstore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
